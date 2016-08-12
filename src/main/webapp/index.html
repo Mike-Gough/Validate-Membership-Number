@@ -1,0 +1,118 @@
+<!doctype html xmlns="http://www.w3.org/1999/xhtml" xmlns:lift='http://liftweb.net'>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Commonwealth Superannuation Corporation</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container" style="padding-top: 60px;">
+      <div class="page-header">
+        <h1>Membership Number <small>Validator</small></h1>
+      </div>
+      <p class="lead">This micro-service facilitates the validation of an Australian Government Service or Military Service Number. It can be consumed to:
+        <ul>
+          <li>Determine the validity of a service number</li>
+          <li>Provide a list of validation errors in the event that a service number is not valid</li>
+          <li>Extract the valid components of a service number (prefix, number, pension code, suffix)</li>
+        </ul>
+      </p>
+      <button type="button" class="btn btn-primary">Validate service number</button>
+
+      <h2>REST API</h2>
+      <ul  class="nav nav-tabs">
+        <li class="active">
+          <a  href="#ping" data-toggle="tab">Ping</a>
+        </li>
+      </ul>
+
+      <div class="tab-content clearfix" style="padding-top:10px;">
+        <div class="tab-pane active" id="ping">
+          <p>Used to verify that this instance of the micro-service is accessible</p>
+          <ul>
+            <li><strong>URL</strong>
+              <ul>
+                <li>api/ping</li>
+              </ul>
+            </li>
+            <li><strong>Method</strong>
+              <ul>
+                <li>GET</li>
+              </ul>
+            </li>
+            <li><strong>URL Parameters</strong>
+              <ul>
+                <li>None</li>
+              </ul>
+            </li>
+            <li><strong>Data Parameters</strong>
+              <ul>
+                <li>None</li>
+              </ul>
+            </li>
+            <li><strong>Success Response</strong>
+              <ul>
+                <li>Code: 200</li>
+                <li>Content: "Pong"</li>
+              </ul>
+            </li>
+            <li><strong>Error Response</strong>
+              <ul>
+                <li>Code: 404 NOT FOUND</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container" style="padding-top: 20px;">
+        <p><span class="text-muted">Built using</span> Scala<span class="text-muted">,</span> Lift<span class="text-muted">,</span> Jetty<span class="text-muted">,</span> HTML5 Boilerplate<span class="text-muted">,</span> Bootstrap<span class="text-muted"> and</span> FontAwesome<span class="text-muted">.</span></p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>
