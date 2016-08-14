@@ -1295,9 +1295,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
-[debug] :: resolution report :: resolve 2744ms :: artifacts dl 63ms
+[debug] :: resolution report :: resolve 3865ms :: artifacts dl 301ms
 [debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sbt_2.11;0.0.1 default produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sbt_2.11-default.xml
-[debug] 	resolve done (2744ms resolve - 63ms download)
+[debug] 	resolve done (3865ms resolve - 301ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1
 [debug] 	confs: [default]
@@ -1915,6 +1915,6 @@
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 374ms :: artifacts dl 36ms
+[debug] :: resolution report :: resolve 1213ms :: artifacts dl 185ms
 [debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 default produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-default.xml
-[debug] 	resolve done (374ms resolve - 36ms download)
+[debug] 	resolve done (1213ms resolve - 185ms download)

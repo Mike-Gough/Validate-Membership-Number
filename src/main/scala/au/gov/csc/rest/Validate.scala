@@ -8,14 +8,14 @@ import net.liftweb.json.JsonAST._
 
 object Validate extends RestHelper {
 
-  serve( "api" / "validate" prefix {
-    case "isValid" :: q JsonGet _ =>
+  serve {
+    case "api" :: "validate" :: q JsonGet _ =>
       val searchString = q ::: S.params("q")
       val mn: MembershipNumber = new MshpNumber(searchString.head)
-      val list: List[JField] = mn.validate.map(a => JField("error", JString(a.failed.get.getMessage())))
+      val list: List[JField] = mn.validate.map(a => JField("message", JString(a.failed.get.getMessage())))
       list.isEmpty match {
-        case true => JObject(List(JField("valid", JString("true")))): JObject
-        case false => JObject(List(JField("valid", JString("false"))) ::: list): JObject
+        case true => JObject(List(JField("id", JString(searchString.head)), JField("valid", JString("true"))))
+        case false => JObject(List(JField("id", JString(searchString.head)), JField("valid", JString("false")), JField("error", JArray(list))))
       }
-  })
+  }
 }

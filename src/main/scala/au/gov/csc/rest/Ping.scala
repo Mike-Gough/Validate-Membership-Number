@@ -6,6 +6,6 @@ import net.liftweb.json.JsonAST._
 object Ping extends RestHelper {
 
   serve( "api" / "ping" prefix {
-    case _ => JString("Pong")
+    case _ => JObject(List(JField("Ping", JString("Pong"))))
   })
 }

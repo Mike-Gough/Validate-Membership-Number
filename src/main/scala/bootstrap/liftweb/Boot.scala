@@ -1,7 +1,7 @@
 package bootstrap.liftweb
 
 import au.gov.csc.rest.{Ping, Validate}
-import net.liftweb.http.{LiftRules, NotFoundAsTemplate, ParsePath}
+import net.liftweb.http._
 import net.liftweb.sitemap.{Menu, SiteMap}
 import net.liftweb.util.NamedPF
 
@@ -19,4 +19,8 @@ class Boot {
     LiftRules.dispatch.append(Ping)
     LiftRules.dispatch.append(Validate)
   }
+
+  // Use HTML5 for rendering
+  LiftRules.htmlProperties.default.set( (r: Req) =>
+    new Html5Properties(r.userAgent) )
 }
