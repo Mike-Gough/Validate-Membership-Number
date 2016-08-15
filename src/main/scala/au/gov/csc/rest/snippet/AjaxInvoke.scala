@@ -19,10 +19,7 @@ object AjaxInvoke extends Loggable {
     val mn: MembershipNumber = MshpNumber(in)
     mn.isValid match {
       case true => "Number is valid"
-      case false => mn.validate.head match {
-        case Success(x) => "Number is valid"
-        case Failure(x) => "Number " + mn.validate.head.failed.get.getMessage
-      }
+      case false => "Number " + mn.validate.head
     }
   }
 

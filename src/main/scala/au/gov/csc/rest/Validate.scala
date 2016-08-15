@@ -12,10 +12,10 @@ object Validate extends RestHelper {
     case "api" :: "validate" :: q JsonGet _ =>
       val searchString = q ::: S.params("q")
       val mn: MembershipNumber = new MshpNumber(searchString.head)
-      val list: List[JField] = mn.validate.map(a => JField("message", JString(a.failed.get.getMessage())))
+      val list: List[JField] = mn.validate.map(a => JField("message", JString(a)))
       list.isEmpty match {
-        case true => JObject(List(JField("id", JString(searchString.head)), JField("valid", JString("true"))))
-        case false => JObject(List(JField("id", JString(searchString.head)), JField("valid", JString("false")), JField("error", JArray(list))))
+        case true => JObject(List(JField("id", JString(mn.number)), JField("valid", JString("true"))))
+        case false => JObject(List(JField("id", JString(mn.number)), JField("valid", JString("false")), JField("error", JArray(list))))
       }
   }
 }
