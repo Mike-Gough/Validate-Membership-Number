@@ -3,15 +3,11 @@ package au.gov.csc.rest.snippet
 import bootstrap.liftweb.{MembershipNumber, MshpNumber}
 import net.liftweb.common.Loggable
 import net.liftweb.http.SHtml
-import net.liftweb.http.js.JE.{JsRaw, ValById}
+import net.liftweb.http.js.JE.{ValById}
 import net.liftweb.http.js.JsCmds
-import net.liftweb.http.js.jquery.JqJsCmds
 import net.liftweb.json.DefaultFormats
-import net.liftweb.util.CssSel
 import net.liftweb.util.Helpers._
-
-import scala.xml.{NodeSeq, Text}
-import scala.util.{Failure, Success}
+import scala.xml.{NodeSeq}
 
 object AjaxInvoke extends Loggable {
 

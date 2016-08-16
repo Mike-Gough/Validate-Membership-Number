@@ -10,7 +10,7 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css" data-lift="with-resource-id">
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -48,20 +48,114 @@
       </nav>
       <div class="container-fluid subnavbar">
         <div class="container">
-          <h1>Home</h1>
+          <ul class="breadcrumb no-margin-bottom">
+            <li><a href="/index.html">Home</a></li>
+          </ul>
+          <h1>REST API</h1>
         </div>
       </div>
       <!-- Begin page content -->
       <div class="container">
-        <h2 class="text-brand">Validate Membership Number</h2>
-        <p class="lead">This micro-service facilitates the validation of an Australian Government Service or Military Service Number. It can be consumed to:
-          <ul>
-            <li>Determine the validity of a service number</li>
-            <li>Provide a list of validation errors in the event that a service number is not valid</li>
-            <li>Extract the valid components of a service number (prefix, number, pension code, suffix)</li>
-          </ul>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#validateModal">Validate service number</button>
-        </p>
+        <h2 class="text-brand">API</h2>
+        <ul  class="nav nav-tabs">
+          <li class="active">
+            <a  href="#ping" data-toggle="tab">Ping</a>
+          </li>
+          <li>
+            <a  href="#validate" data-toggle="tab">Validate</a>
+          </li>
+        </ul>
+        <div class="tab-content clearfix" style="padding-top:10px;">
+          <div class="tab-pane fadeIn active" id="ping">
+            <p>Used to verify that this instance of the micro-service is accessible</p>
+            <ul>
+              <li><strong>URL</strong>
+                <ul>
+                  <li>api/ping</li>
+                </ul>
+              </li>
+              <li><strong>Method</strong>
+                <ul>
+                  <li>GET</li>
+                </ul>
+              </li>
+              <li><strong>URL Parameters</strong>
+                <ul>
+                  <li>None</li>
+                </ul>
+              </li>
+              <li><strong>Data Parameters</strong>
+                <ul>
+                  <li>None</li>
+                </ul>
+              </li>
+              <li><strong>Success Response</strong>
+                <ul>
+                  <li>Code: 200</li>
+                  <li>Content: { "Ping":"Pong" }</li>
+                </ul>
+              </li>
+              <li><strong>Error Response</strong>
+                <ul>
+                  <li>Code: 404 NOT FOUND</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane fadeIn" id="validate">
+            <p>Used to determine if a service number is valid</p>
+            <ul>
+              <li><strong>URL</strong>
+                <ul>
+                  <li>api/validate</li>
+                </ul>
+              </li>
+              <li><strong>Method</strong>
+                <ul>
+                  <li>GET</li>
+                </ul>
+              </li>
+              <li><strong>URL Parameters</strong>
+                <ul>
+                  <li>Service Number</li>
+                </ul>
+              </li>
+              <li><strong>Data Parameters</strong>
+                <ul>
+                  <li>None</li>
+                </ul>
+              </li>
+              <li><strong>Success Response</strong>
+                <ul>
+                  <li>Code: 200</li>
+                  <li>
+                    Content: <br/>
+                    {<br/>
+                    &nbsp;&nbsp;"id":"A12345AA",<br/>
+                    &nbsp;&nbsp;"valid":"false",<br/>
+                    &nbsp;&nbsp;"error":["message":"does not contain a valid pension code suffix. Valid codes include CS, PS, OS, PG, MS, DF, DB, AD.",<br/>
+                    &nbsp;&nbsp;"message":"is not a valid Australian Government Service (AGS) or Military Service Number."]<br/>
+                    }<br/>or<br/>
+                    {<br/>
+                    &nbsp;&nbsp;"id":"A12345ADA",<br/>
+                    &nbsp;&nbsp;"valid":"true",<br/>
+                    &nbsp;&nbsp;"prefix":"A",<br/>
+                    &nbsp;&nbsp;"number":"12345",<br/>
+                    &nbsp;&nbsp;"pensionCode":"AD",<br/>
+                    &nbsp;&nbsp;"suffix":"A"<br/>
+                    }
+                  </li>
+                </ul>
+              </li>
+              <li><strong>Error Response</strong>
+                <ul>
+                  <li>Code: 404 NOT FOUND</li>
+                </ul>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#validateModal">Validate service number</button>
+          </div>
+        </div>
       </div>
       <!-- Validate Modal -->
       <div class="modal fade" id="validateModal" tabindex="-1" role="dialog" aria-labelledby="validateModalLabel" data-lift="AjaxInvoke">

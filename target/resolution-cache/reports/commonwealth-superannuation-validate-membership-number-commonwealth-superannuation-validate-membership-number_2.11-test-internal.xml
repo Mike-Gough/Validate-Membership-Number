@@ -7,7 +7,7 @@
 		revision="0.0.1"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container"
-		date="20160812092607"/>
+		date="20160816181346"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-plus">
 			<revision name="8.1.17.v20150415" status="release" pubdate="20150429085300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">

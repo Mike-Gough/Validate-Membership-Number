@@ -94,3 +94,16 @@ exit
 container:restart
 exit
 container:restart
+gen-idea
+container:restart
+container:stop
+exit
+sbt update
+?
+update
+container:restart
+exit
+container:restart
+exit
+container:restart
+exit

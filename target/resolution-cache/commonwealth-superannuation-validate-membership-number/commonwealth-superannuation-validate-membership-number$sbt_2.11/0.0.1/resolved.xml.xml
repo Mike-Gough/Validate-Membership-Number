@@ -4,7 +4,7 @@
 		module="commonwealth-superannuation-validate-membership-number$sbt_2.11"
 		revision="0.0.1"
 		status="integration"
-		publication="20160815071216"
+		publication="20160816181649"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

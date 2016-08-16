@@ -11,7 +11,7 @@
 [debug] == resolving dependencies for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 [compile]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d536aaa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c5b27d0
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -20,7 +20,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.4 [compile->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.11;7.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@181a96a7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5de5927c
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.2.4
 [debug] 	found org.scalaz#scalaz-core_2.11;7.2.4 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.4 [compile->runtime]
@@ -28,7 +28,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.4 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-webkit_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-webkit_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@762e7d9d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5248c2f1
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-webkit_2.11;2.6.2
 [debug] 	found net.liftweb#lift-webkit_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-webkit_2.11;2.6.2 [compile->runtime]
@@ -36,7 +36,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-webkit_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-util_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-util_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e9490d7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c58be7a
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-util_2.11;2.6.2
 [debug] 	found net.liftweb#lift-util_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-util_2.11;2.6.2 [compile->runtime]
@@ -44,7 +44,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-util_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@273ddccf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@551ca701
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.1
 [debug] 	found org.scala-lang#scala-compiler;2.11.1 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.1 [compile->runtime]
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scala-compiler;2.11.1 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48cc8f36
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20f862b0
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.1
 [debug] 	found org.scala-lang#scala-reflect;2.11.1 in sbt-chain
 [debug] 	[2.11.1] org.scala-lang#scala-reflect;2.11.1
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.1 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@eb0acf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67568a30
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
@@ -69,7 +69,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f5711e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a701afc
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime]
@@ -77,7 +77,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-actor_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-actor_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1adf5d25
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@149c40ff
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-actor_2.11;2.6.2
 [debug] 	found net.liftweb#lift-actor_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-actor_2.11;2.6.2 [compile->runtime]
@@ -85,7 +85,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-actor_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-common_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-common_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ac552ae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@393c410a
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-common_2.11;2.6.2
 [debug] 	found net.liftweb#lift-common_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-common_2.11;2.6.2 [compile->runtime]
@@ -93,7 +93,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-common_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.2 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b5b6bc1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17fc871c
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.2
 [debug] 	found org.slf4j#slf4j-api;1.7.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.2 [compile->runtime]
@@ -101,7 +101,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-json_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-json_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6527dd70
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7912247
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-json_2.11;2.6.2
 [debug] 	found net.liftweb#lift-json_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-json_2.11;2.6.2 [compile->runtime]
@@ -109,7 +109,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-json_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scalap;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scalap;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@744f1c94
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1001ffd
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.1
 [debug] 	found org.scala-lang#scalap;2.11.1 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scalap;2.11.1 [compile->runtime]
@@ -117,7 +117,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.scala-lang#scalap;2.11.1 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.4.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7887836f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45dd6286
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.4.1
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.4.1 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime]
@@ -125,7 +125,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-markdown_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-markdown_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@531398ef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29f2c8bd
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-markdown_2.11;2.6.2
 [debug] 	found net.liftweb#lift-markdown_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-markdown_2.11;2.6.2 [compile->runtime]
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-markdown_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->joda-time#joda-time;2.1 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a318c79
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77cf6f94
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.1
 [debug] 	found joda-time#joda-time;2.1 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->joda-time#joda-time;2.1 [compile->runtime]
@@ -141,7 +141,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->joda-time#joda-time;2.1 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.joda#joda-convert;1.2 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f34f5fe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7db2075e
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.2
 [debug] 	found org.joda#joda-convert;1.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.joda#joda-convert;1.2 [compile->runtime]
@@ -149,7 +149,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.joda#joda-convert;1.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.mail#mail;1.4.4 [compile->default(compile)]
 [info] Resolving javax.mail#mail;1.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b9a87bd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@111feb72
 [debug] sbt-chain: module revision found in cache: javax.mail#mail;1.4.4
 [debug] 	found javax.mail#mail;1.4.4 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.mail#mail;1.4.4 [compile->runtime]
@@ -157,7 +157,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.mail#mail;1.4.4 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.activation#activation;1.1 [compile->default(compile)]
 [info] Resolving javax.activation#activation;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48ea6f42
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5238b3f7
 [debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1
 [debug] 	found javax.activation#activation;1.1 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.activation#activation;1.1 [compile->runtime]
@@ -165,7 +165,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.activation#activation;1.1 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->nu.validator.htmlparser#htmlparser;1.4 [compile->default(compile)]
 [info] Resolving nu.validator.htmlparser#htmlparser;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@473f1792
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1af01c5b
 [debug] sbt-chain: module revision found in cache: nu.validator.htmlparser#htmlparser;1.4
 [debug] 	found nu.validator.htmlparser#htmlparser;1.4 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->nu.validator.htmlparser#htmlparser;1.4 [compile->runtime]
@@ -173,7 +173,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->nu.validator.htmlparser#htmlparser;1.4 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57cf7052
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d14eed1
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->xerces#xercesImpl;2.11.0 [compile->runtime]
@@ -181,7 +181,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@566c4cd5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e6dc12f
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->xml-apis#xml-apis;1.4.01 [compile->runtime]
@@ -189,7 +189,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-fileupload#commons-fileupload;1.2.2 [compile->default(compile)]
 [info] Resolving commons-fileupload#commons-fileupload;1.2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bb26e04
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28ee1abb
 [debug] sbt-chain: module revision found in cache: commons-fileupload#commons-fileupload;1.2.2
 [debug] 	found commons-fileupload#commons-fileupload;1.2.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-fileupload#commons-fileupload;1.2.2 [compile->runtime]
@@ -197,7 +197,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-fileupload#commons-fileupload;1.2.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-testkit_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-testkit_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18d518d8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@303fafb1
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-testkit_2.11;2.6.2
 [debug] 	found net.liftweb#lift-testkit_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-testkit_2.11;2.6.2 [compile->runtime]
@@ -205,7 +205,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-testkit_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
 [info] Resolving commons-httpclient#commons-httpclient;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f2ff24
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d49e252
 [debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-httpclient#commons-httpclient;3.1 [compile->runtime]
@@ -213,7 +213,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-httpclient#commons-httpclient;3.1 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-logging#commons-logging;1.0.4 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33cc5cfd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@664206df
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.0.4
 [debug] 	found commons-logging#commons-logging;1.0.4 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-logging#commons-logging;1.0.4 [compile->runtime]
@@ -221,7 +221,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-logging#commons-logging;1.0.4 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-mapper_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-mapper_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e755a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40601955
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-mapper_2.11;2.6.2
 [debug] 	found net.liftweb#lift-mapper_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-mapper_2.11;2.6.2 [compile->runtime]
@@ -229,7 +229,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-mapper_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-db_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-db_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e3d184e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f3d8847
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-db_2.11;2.6.2
 [debug] 	found net.liftweb#lift-db_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-db_2.11;2.6.2 [compile->runtime]
@@ -237,7 +237,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-db_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-proto_2.11;2.6.2 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-proto_2.11;2.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10d1d025
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32955896
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-proto_2.11;2.6.2
 [debug] 	found net.liftweb#lift-proto_2.11;2.6.2 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-proto_2.11;2.6.2 [compile->runtime]
@@ -245,7 +245,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftweb#lift-proto_2.11;2.6.2 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20c1764c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75fe076c
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo_2.6_2.11;1.5 [compile->runtime]
@@ -253,7 +253,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-kineticjs_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo-kineticjs_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@300982e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ad0f631
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo-kineticjs_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo-kineticjs_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-kineticjs_2.6_2.11;1.5 [compile->runtime]
@@ -261,7 +261,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-kineticjs_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-pace_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo-pace_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bf3b2d3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@617b195a
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo-pace_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo-pace_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-pace_2.6_2.11;1.5 [compile->runtime]
@@ -269,7 +269,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-pace_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-angularjs_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo-angularjs_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5aea71fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f9342e
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo-angularjs_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo-angularjs_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-angularjs_2.6_2.11;1.5 [compile->runtime]
@@ -277,7 +277,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-angularjs_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-jquery_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo-jquery_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8017751
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@788014e6
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo-jquery_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo-jquery_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-jquery_2.6_2.11;1.5 [compile->runtime]
@@ -285,7 +285,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-jquery_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#lift-jquery-module_2.6_2.11;2.9 [compile->default(compile)]
 [info] Resolving net.liftmodules#lift-jquery-module_2.6_2.11;2.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5916ede7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e8e1c6
 [debug] sbt-chain: module revision found in cache: net.liftmodules#lift-jquery-module_2.6_2.11;2.9
 [debug] 	found net.liftmodules#lift-jquery-module_2.6_2.11;2.9 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#lift-jquery-module_2.6_2.11;2.9 [compile->runtime]
@@ -293,7 +293,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#lift-jquery-module_2.6_2.11;2.9 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-twitter-bootstrap_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo-twitter-bootstrap_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73c82466
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62e1b0d9
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo-twitter-bootstrap_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo-twitter-bootstrap_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-twitter-bootstrap_2.6_2.11;1.5 [compile->runtime]
@@ -301,7 +301,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-twitter-bootstrap_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-twbs-bootstrap3_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo-twbs-bootstrap3_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17bff3f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58275f20
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo-twbs-bootstrap3_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo-twbs-bootstrap3_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-twbs-bootstrap3_2.6_2.11;1.5 [compile->runtime]
@@ -309,7 +309,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-twbs-bootstrap3_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.servlet#servlet-api;2.5 [compile->default(compile)]
 [info] Resolving javax.servlet#servlet-api;2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1db5ebb1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4746633c
 [debug] sbt-chain: module revision found in cache: javax.servlet#servlet-api;2.5
 [debug] 	found javax.servlet#servlet-api;2.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.servlet#servlet-api;2.5 [compile->runtime]
@@ -317,7 +317,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->javax.servlet#servlet-api;2.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-font-awesome_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo-font-awesome_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30d7791
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cbd316e
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo-font-awesome_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo-font-awesome_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-font-awesome_2.6_2.11;1.5 [compile->runtime]
@@ -325,7 +325,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-font-awesome_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-google-code-prettify_2.6_2.11;1.5 [compile->default(compile)]
 [info] Resolving net.liftmodules#fobo-google-code-prettify_2.6_2.11;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c64e180
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56d8ecb7
 [debug] sbt-chain: module revision found in cache: net.liftmodules#fobo-google-code-prettify_2.6_2.11;1.5
 [debug] 	found net.liftmodules#fobo-google-code-prettify_2.6_2.11;1.5 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-google-code-prettify_2.6_2.11;1.5 [compile->runtime]
@@ -333,7 +333,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->net.liftmodules#fobo-google-code-prettify_2.6_2.11;1.5 [compile->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3caaea74
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bd446e0
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-codec#commons-codec;1.10 [compile->runtime]
@@ -1168,7 +1168,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->commons-codec#commons-codec;1.10 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3446e2b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63679ef7
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 [test->runtime]
@@ -1176,7 +1176,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-xml;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-xml;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d8a817d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@581b25ab
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-xml;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-xml;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-xml;8.1.17.v20150415 [test->runtime]
@@ -1184,7 +1184,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-xml;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-util;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@702305f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6169fdbb
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-util;8.1.17.v20150415 [test->runtime]
@@ -1192,7 +1192,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-util;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fab959a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e60a09b
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-servlet;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 [test->runtime]
@@ -1200,7 +1200,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-security;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-security;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7aa984bd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@318a8726
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-security;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-security;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-security;8.1.17.v20150415 [test->runtime]
@@ -1208,7 +1208,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-security;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-server;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-server;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c85059e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@354e73ea
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-server;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-server;8.1.17.v20150415 [test->runtime]
@@ -1216,7 +1216,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-server;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d53d892
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7af0a9e8
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [test->runtime]
@@ -1224,7 +1224,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a5fa092
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cb44f6c
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 [test->runtime]
@@ -1232,7 +1232,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-http;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37b79314
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2640bf1f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-http;8.1.17.v20150415 [test->runtime]
@@ -1240,7 +1240,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-http;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-io;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@561670f2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a0d190f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-io;8.1.17.v20150415 [test->runtime]
@@ -1248,7 +1248,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-io;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-plus;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-plus;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35cd848c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41249663
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-plus;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-plus;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-plus;8.1.17.v20150415 [test->runtime]
@@ -1256,7 +1256,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-plus;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c49878
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ee5bcf2
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645
 [debug] 	found org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [test->runtime]
@@ -1264,7 +1264,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46a4f370
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3eacf6d
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-jndi;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 [test->runtime]
@@ -1272,7 +1272,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f5fb8e2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@598b1e5e
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020
 [debug] 	found org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [test->runtime]
@@ -1280,7 +1280,7 @@
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [test->master]
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7044157
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10d30f7
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233
 [debug] 	found org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 in sbt-chain
 [debug] == resolving dependencies commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [test->runtime]
@@ -3140,19 +3140,19 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 4536ms :: artifacts dl 97ms
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 compile produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-compile.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 runtime produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-runtime.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 test produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-test.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 provided produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-provided.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 optional produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-optional.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 compile-internal produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-compile-internal.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 runtime-internal produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-runtime-internal.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 test-internal produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-test-internal.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 plugin produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-plugin.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 sources produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-sources.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 docs produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-docs.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 pom produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-pom.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 scala-tool produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-scala-tool.xml
-[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 container produced in /Users/Mike/Git/ValidateMembershipNumber/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-container.xml
-[debug] 	resolve done (4536ms resolve - 97ms download)
+[debug] :: resolution report :: resolve 5231ms :: artifacts dl 119ms
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 compile produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-compile.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 runtime produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-runtime.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 test produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-test.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 provided produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-provided.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 optional produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-optional.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 compile-internal produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-compile-internal.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 runtime-internal produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-runtime-internal.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 test-internal produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-test-internal.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 plugin produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-plugin.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 sources produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-sources.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 docs produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-docs.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 pom produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-pom.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 scala-tool produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-scala-tool.xml
+[debug] 	report for commonwealth-superannuation-validate-membership-number#commonwealth-superannuation-validate-membership-number$sources_2.11;0.0.1 container produced in /Users/Mike/Git/Validate-Membership-Number/target/resolution-cache/reports/commonwealth-superannuation-validate-membership-number-commonwealth-superannuation-validate-membership-number$sources_2.11-container.xml
+[debug] 	resolve done (5231ms resolve - 119ms download)

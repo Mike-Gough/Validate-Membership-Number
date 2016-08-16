@@ -4,7 +4,7 @@
 		module="commonwealth-superannuation-validate-membership-number$sources_2.11"
 		revision="0.0.1"
 		status="integration"
-		publication="20160815071222"
+		publication="20160816181659"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
