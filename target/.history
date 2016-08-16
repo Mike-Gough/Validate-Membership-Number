@@ -90,3 +90,7 @@ container:start
 container:stop
 container:start
 container:restart
+exit
+container:restart
+exit
+container:restart

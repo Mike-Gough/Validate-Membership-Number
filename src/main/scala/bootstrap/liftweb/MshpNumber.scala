@@ -1,76 +1,64 @@
 package bootstrap.liftweb {
 
+  import scala.util.{Failure, Success, Try}
+
   case class MshpNumber(number: String, prefix: String = "", pensionCode: String = "", suffix: String = "") extends MembershipNumber {
     var external_id = prefix + number + pensionCode + suffix
 
     override def validate: List[String] = {
       val (minLength, maxLength) = (4, 10)
+      val patternScheme = "[A-Z]{2}".r
+      val schemes = List("CS", "PS", "OS", "PG", "MS", "DF", "DB", "AD")
+      val MembershipNumberPattern = "^(Z|P|A|N|R)?(\\d{4,10})(CS|PS|OS|PG|MS|DF|DB|AD)?([A-W]|X|X\\d{2})?$".r
 
-      def validCase(id: String): Option[String] = {
-        id.toUpperCase() == id match {
-          case true => None
-          case false => Some("must be in upper case.")
-        }
+      val isInvalidCase: PartialFunction[String, String] = {
+        case x if x.toUpperCase() != x => "must be in upper case."
       }
 
-      def validMinLength(id: String): Option[String] = {
-        id.length >= minLength match {
-          case true => None
-          case false => Some(f"must be greater than or equal to $minLength%1d characters in length.")
-        }
+      val isInvalidMinLength: PartialFunction[String, String] = {
+        case x if x.length < minLength => f"must be greater than or equal to $minLength%1d characters in length."
       }
 
-      def validMaxLength(id: String): Option[String] = {
-        id.length <= maxLength match {
-          case true => None
-          case false => Some(f"must be less than or equal to $maxLength%2d characters in length.")
-        }
+      val isInvalidMaxLength: PartialFunction[String, String] = {
+        case x if x.length > maxLength => f"must be less than or equal to $maxLength%2d characters in length."
       }
 
-      def validSchemeCode(id: String): Option[String] = {
-        val patternScheme = "[A-Z]{2}".r
-        val schemes = List("CS", "PS", "OS", "PG", "MS", "DF", "DB", "AD")
+      val isInvalidSchemeCode: PartialFunction[String, String] = {
+        case x if !schemes.contains(patternScheme.findFirstIn(x).getOrElse("CS")) =>
+          "does not contain a valid pension code suffix. Valid codes include " + schemes.mkString(", ") + "."
+      }
+
+      def validSchemeCodeForSource(id: String): Try[String] = {
         schemes.contains(patternScheme.findFirstIn(id).getOrElse("CS")) match {
-          case true => None
-          case false => Some("does not contain a valid pension code suffix. Valid codes include " + schemes.mkString(", ") + ".")
-        }
-      }
-
-      def validSchemeCodeForSource(id: String): Option[String] = {
-        val MembershipNumberPattern = "^(Z|P|A|N|R)?(\\d{4,10})(CS|PS|OS|PG|MS|DF|DB|AD)?$".r
-        val patternScheme = "[A-Z]{2}".r
-        val schemes = List("CS", "PS", "OS", "PG", "MS", "DF", "DB", "AD")
-        schemes.contains(patternScheme.findFirstIn(id).getOrElse("CS")) match {
-          case true => None
+          case true => Success(id)
           case false => id.matches(MembershipNumberPattern.regex) match {
             case true => id match {
-              case MembershipNumberPattern(prefix, number, pension) =>
+              case MembershipNumberPattern(prefix, number, pension, suffix) =>
                 prefix match {
-                  case _ if List("A", "N", "R").contains(prefix) => List("MS", "DF", "DB", "AD").contains(pension) match {
-                    case true => None
-                    case false => Some("Military Service Numbers cannot have a civilian pension code suffix.")
+                  case "A" | "N" | "R" => pension match {
+                    case "MS" | "DF" | "DB" | "AD" => Success(id)
+                    case _ => Failure(new IllegalArgumentException("Military Service Numbers cannot have a civilian pension code suffix."))
                   }
-                  case _ if List("Z", "P").contains(prefix) => List("MS", "DF", "DB", "AD").contains(pension) match {
-                    case true => None
-                    case false => Some("Military Service Numbers cannot have a civilian pension code suffix.")
+                  case "Z" | "P" => pension match {
+                    case "MS" | "DF" | "DB" | "AD" => Success(id)
+                    case _ => Failure(new IllegalArgumentException("Australian Government Service Numbers cannot have a military pension code suffix."))
                   }
-                  case _ => None
+                  case _ => Success(id)
                 }
             }
-            case false => None
+            case false => Success(id)
           }
         }
       }
 
-      def validFormat(id: String): Option[String] = {
-        id.matches("^((Z|P)?\\d{4,8}((CS|PS|OS|PG)|((CS|PS|OS|PG)[A-W]))?)|((A|N|R)?\\d{4,10}((MS|DF|DB|AD)|((MS|DF|DB|AD)[A-W]))?)(X|X\\d{2})?$") match {
-          case true => None
-          case false => Some("is not a valid Australian Government Service (AGS) or Military Service Number.")
-        }
+      val isInvalidFormat: PartialFunction[String, String] = {
+        case x if !x.matches("^((Z|P)?\\d{4,8}((CS|PS|OS|PG)|((CS|PS|OS|PG)[A-W]))?)|((A|N|R)?\\d{4,10}((MS|DF|DB|AD)|((MS|DF|DB|AD)[A-W]))?)(X|X\\d{2})?$") =>
+          "is not a valid Australian Government Service (AGS) or Military Service Number."
       }
 
       // Return validation failures
-      List(validCase(external_id), validMinLength(external_id), validMaxLength(external_id), validSchemeCode(external_id), validSchemeCodeForSource(external_id), validFormat(external_id)).flatten.map(y => y.toString())
+      val id: List[String] = List(external_id)
+      List(id.collect(isInvalidCase), id.collect(isInvalidMinLength), id.collect(isInvalidMaxLength), id.collect(isInvalidSchemeCode), List(validSchemeCodeForSource(external_id)).filter(x => x.isFailure).map(y => y.failed.get.toString), id.collect(isInvalidFormat)).flatten
     }
   }
 
@@ -81,7 +69,7 @@ package bootstrap.liftweb {
     def unapply(id: MembershipNumber): Option[(String, String, String, String)] = {
       id.toString() match {
         case MembershipNumberPattern(prefix, number, pension, suffix) if id.isValid =>
-            Some((prefix, number, pension, suffix))
+          Some((prefix, number, pension, suffix))
         case _ => None
       }
     }

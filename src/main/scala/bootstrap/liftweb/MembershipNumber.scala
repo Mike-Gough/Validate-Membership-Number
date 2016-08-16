@@ -1,5 +1,3 @@
-import scala.util.Try
-
 package bootstrap.liftweb {
 
   trait MembershipNumber {
