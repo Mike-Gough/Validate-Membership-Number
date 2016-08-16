@@ -1,7 +1,5 @@
 package bootstrap.liftweb {
 
-  import scala.util.{Failure, Success, Try}
-
   case class MshpNumber(number: String, prefix: String = "", pensionCode: String = "", suffix: String = "") extends MembershipNumber {
     var external_id = prefix + number + pensionCode + suffix
 
@@ -28,27 +26,32 @@ package bootstrap.liftweb {
           "does not contain a valid pension code suffix. Valid codes include " + schemes.mkString(", ") + "."
       }
 
-      def validSchemeCodeForSource(id: String): Try[String] = {
+      def validSchemeCodeForSource(id: String): Option[String] = {
         schemes.contains(patternScheme.findFirstIn(id).getOrElse("CS")) match {
-          case true => Success(id)
+          case true => None
           case false => id.matches(MembershipNumberPattern.regex) match {
             case true => id match {
               case MembershipNumberPattern(prefix, number, pension, suffix) =>
                 prefix match {
                   case "A" | "N" | "R" => pension match {
-                    case "MS" | "DF" | "DB" | "AD" => Success(id)
-                    case _ => Failure(new IllegalArgumentException("Military Service Numbers cannot have a civilian pension code suffix."))
+                    case "MS" | "DF" | "DB" | "AD" => None
+                    case _ => Some("Military Service Numbers cannot have a civilian pension code suffix.")
                   }
                   case "Z" | "P" => pension match {
-                    case "MS" | "DF" | "DB" | "AD" => Success(id)
-                    case _ => Failure(new IllegalArgumentException("Australian Government Service Numbers cannot have a military pension code suffix."))
+                    case "MS" | "DF" | "DB" | "AD" => None
+                    case _ => Some("Australian Government Service Numbers cannot have a military pension code suffix.")
                   }
-                  case _ => Success(id)
+                  case _ => None
                 }
             }
-            case false => Success(id)
+            case false => None
           }
         }
+      }
+
+      val isInvalidSchemeCodeForSource: PartialFunction[String, String] = {
+        case x if validSchemeCodeForSource(x).getOrElse("None") != "None" =>
+          validSchemeCodeForSource(x).get
       }
 
       val isInvalidFormat: PartialFunction[String, String] = {
@@ -58,7 +61,7 @@ package bootstrap.liftweb {
 
       // Return validation failures
       val id: List[String] = List(external_id)
-      List(id.collect(isInvalidCase), id.collect(isInvalidMinLength), id.collect(isInvalidMaxLength), id.collect(isInvalidSchemeCode), List(validSchemeCodeForSource(external_id)).filter(x => x.isFailure).map(y => y.failed.get.toString), id.collect(isInvalidFormat)).flatten
+      List(id.collect(isInvalidCase), id.collect(isInvalidMinLength), id.collect(isInvalidMaxLength), id.collect(isInvalidSchemeCode), id.collect(isInvalidSchemeCodeForSource), id.collect(isInvalidFormat)).flatten
     }
   }
 

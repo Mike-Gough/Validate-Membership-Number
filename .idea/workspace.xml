@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d7c14ba-e2bd-472b-9d78-6ec6993e76bc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber$$anonfun$validate$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber$$anonfun$validate$2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/au/gov/csc/rest/snippet/AjaxInvoke$$anonfun$render$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/au/gov/csc/rest/snippet/AjaxInvoke$$anonfun$render$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/au/gov/csc/rest/snippet/AjaxInvoke$$anonfun$render$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/au/gov/csc/rest/snippet/AjaxInvoke$$anonfun$render$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/au/gov/csc/rest/snippet/AjaxInvoke$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/au/gov/csc/rest/snippet/AjaxInvoke$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bootstrap/liftweb/MshpNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/au/gov/csc/rest/snippet/AjaxInvoke.scala" afterPath="$PROJECT_DIR$/src/main/scala/au/gov/csc/rest/snippet/AjaxInvoke.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MembershipNumber.scala" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MembershipNumber.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MshpNumber.scala" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MshpNumber.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
     </list>
     <ignored path="ValidateMembershipNumber.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boot.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Boot.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -137,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MshpNumber.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MshpNumber.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MshpNumber.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-377">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -190,9 +169,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/au/gov/csc/rest/Validate.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/au/gov/csc/rest/Ping.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MembershipNumber.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MshpNumber.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/au/gov/csc/rest/snippet/AjaxInvoke.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MshpNumber.scala" />
       </list>
     </option>
   </component>
@@ -1086,24 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MshpNumber.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/au/gov/csc/rest/Validate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="e#25#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/au/gov/csc/rest/snippet/AjaxInvoke.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -1121,6 +1082,24 @@
           <folding>
             <element signature="e#27#66#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/au/gov/csc/rest/Validate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="65" />
+          <folding>
+            <element signature="e#25#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/MshpNumber.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
