@@ -4,7 +4,7 @@ package bootstrap.liftweb {
     var external_id = prefix + number + pensionCode + suffix
 
     override def validate: List[String] = {
-      val (minLength, maxLength) = (4, 10)
+      val (minLength, maxLength, agsLength) = (4, 10, 8)
       val patternScheme = "[A-Z]{2}".r
       val schemes = List("CS", "PS", "OS", "PG", "MS", "DF", "DB", "AD")
       val MembershipNumberPattern = "^(Z|P|A|N|R)?(\\d{4,10})(CS|PS|OS|PG|MS|DF|DB|AD)?([A-W]|X|X\\d{2})?$".r
@@ -59,9 +59,39 @@ package bootstrap.liftweb {
           "is not a valid Australian Government Service (AGS) or Military Service Number."
       }
 
+      def isInvalidAGSFormatModulo(id: String): Option[String] = {
+        if (List(id).collect(isInvalidFormat).isEmpty) {
+          id match {
+            case MembershipNumberPattern(prefix, number, pension, suffix) =>
+              prefix match {
+                case "A" | "N" | "R" | "P" | "Z" => None
+                case _ =>
+                  if (number.length() != agsLength) {
+                    Some("must contain $agsLength%1d digits to be a valid Australian Government Service Number")
+                  } else {
+                    var result: Int = 0
+                    val multiplyBy: List[Int] = List(7, 9, 10, 5, 8, 4, 2, 1)
+                    (number.toList.map(x => x.asDigit), multiplyBy).zipped.foreach((x, y) => result += x * y)
+                    result % 11 match {
+                      case 0 => None
+                      case _ => Some("is not a valid Australian Government Service (AGS) Number")
+                    }
+                  }
+              }
+          }
+        } else {
+          None
+        }
+      }
+
+      val isInvalidAGSFormat: PartialFunction[String, String] = {
+        case x if isInvalidAGSFormatModulo(x).getOrElse("None") != "None" =>
+          isInvalidAGSFormatModulo(x).get
+      }
+
       // Return validation failures
       val id: List[String] = List(external_id)
-      List(id.collect(isInvalidCase), id.collect(isInvalidMinLength), id.collect(isInvalidMaxLength), id.collect(isInvalidSchemeCode), id.collect(isInvalidSchemeCodeForSource), id.collect(isInvalidFormat)).flatten
+      List(id.collect(isInvalidCase), id.collect(isInvalidMinLength), id.collect(isInvalidMaxLength), id.collect(isInvalidSchemeCode), id.collect(isInvalidSchemeCodeForSource), id.collect(isInvalidAGSFormat), id.collect(isInvalidFormat)).flatten
     }
   }
 
