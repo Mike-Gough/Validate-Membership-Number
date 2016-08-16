@@ -293,7 +293,8 @@ body {
 }
 
 #banner img {
-    padding-left: 30px;
+    max-width: 100%;
+    min-width: 70%;
 }
 
 .navbar {
